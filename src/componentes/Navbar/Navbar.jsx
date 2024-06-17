@@ -9,7 +9,7 @@ function Navbar() {
         className="navbar navbar-expand-lg"
         style={{ backgroundColor: "#484250" }}
       >
-        <div className="container-fluid">
+        <div className="container">
           <div className="nomePrincipal ms-3 mt-1">
             <h3>Dra Ingrid</h3>
             <p>Advogados</p>

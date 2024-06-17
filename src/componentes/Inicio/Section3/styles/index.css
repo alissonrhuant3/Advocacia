@@ -78,3 +78,13 @@ div.module.parallax {
 .section3_button:hover {
     background-color: #0a1a25;
 }
+
+@media (max-width: 480px) {
+    div.module.parallax {
+        background-image: url("");
+    }
+
+    .section3_paragraph1 {
+        
+    }
+}

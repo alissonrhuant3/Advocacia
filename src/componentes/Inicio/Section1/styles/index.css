@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    max-width: 60rem;
     height: auto;
     min-height: 24rem;
 }
@@ -39,6 +38,7 @@
     justify-content: center;
     width: 25rem;
     background-color: #8a5b40a6;
+    overflow-x: hidden;
 }
 
 #borda {
@@ -102,5 +102,19 @@
 
 .section1_input_enviar:hover {
     background-color: #f1f1f149;
+}
+
+@media (max-width: 480px) {
+    .section1__conteudo {
+        flex-direction: column;
+        width: 400px;
+    }
+    .section1__tituloesubtitulo {
+    
+    }
+
+    .section1__formulario {
+        margin-top: 20px;
+    }
 }
 

@@ -9,17 +9,17 @@ export default function Section2() {
 
             <div className="section2_why_ingrid_row1">
                 <span className="recomendation">DEDICAÇÃO TOTAL</span>
-                <img src={svg} alt="separador" style={{ width: 7 }} />
+                <img className="image" src={svg} alt="separador" style={{ width: 7 }} />
 
-                <span className="recomendation">EMPATIA</span>
-                <img src={svg} alt="separador" style={{ width: 7 }} />
+                <span id="empatia" className="recomendation">EMPATIA</span>
+                <img className="image" src={svg} alt="separador" style={{ width: 7 }} />
 
                 <span className="recomendation">CONSULTA GRATIS</span>
             </div>
             
             <div className="section2_why_ingrid_row2">
                 <span className="recomendation">RESULTADOS EXCELENTES</span>
-                <img src={svg} alt="separador" style={{ width: 7 }} />
+                <img className="image" src={svg} alt="separador" style={{ width: 7 }} />
 
                 <span className="recomendation">AMOR PELA JUSTIÇA</span>
             </div>
