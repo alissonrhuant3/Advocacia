@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.section_footer {
+    display: block;
+    background-color: #484250;
+
+    width: 100%;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+
+    background-color: #BD805C;
+    height: 5rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_direitos {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.section_footer {
+    height: auto !important;
+}
+
+/* [ FORMULARIO / INPUTS ] */
+
+.sectionf_formulario {
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+    display: inline-flex;
+
+    justify-content: center;
+}
+
+.form_title_line1 {
+    font-family: 'Roboto', 'Comic Sans';
+
+    color: #BD805C;
+    font-weight: 600;
+
+    position: absolute;
+    margin-top: 5rem;
+}
+
+.title_line2 {
+    color: white;
+    margin-top: 7rem;
+}
+
+.section2_redline {
+    margin-top: 30px;
+    display: block;
+
+    background-color: red;
+
+    width: 1px;
+    height: 46px;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.sectionf_input {
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+    color: #f1f1f1;
+
+    background-color: rgba(0, 0, 0, 0.048);
+    border-bottom: 2px solid white;
+    border-radius: 1px;
+
+    padding: 3.5px;
+
+    outline: none;
+    margin: 10px;
+
+    justify-content: center;
+}
+
+.sectionf-inputs {
+    margin-top: 12rem;
+    position: relative;
+}
+
+.sectionf_textarea {
+    width: 96%;
+    height: 8rem;
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+.sectionf_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionf_button {
+    width: 10rem;
+    border: 1px solid #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.048);
+
+    transition: 0.11s ease-in;
+}
+
+.sectionf_button:hover {
+    background-color: rgba(29, 29, 29, 0.226);
+}
+
+.sectionf_address {
+    font-size: 12px;
+    margin-top: 13rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: #cecece;
+    text-align: right;
+
+    margin-left: 5rem;
+}
