@@ -104,7 +104,7 @@
     background-color: #f1f1f149;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .section1__conteudo {
         flex-direction: column;
         width: 400px;
