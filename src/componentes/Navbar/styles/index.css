@@ -79,5 +79,9 @@ fonts {
     .navbar-text a{
       color: #BD805C !important;
     }
+
+    .link {
+      color: white !important;
+    }
   
     

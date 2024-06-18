@@ -1,5 +1,6 @@
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./styles/index.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,7 +12,7 @@ function Navbar() {
       >
         <div className="container">
           <div className="nomePrincipal ms-3 mt-1">
-            <h3>Dra Ingrid</h3>
+            <h3>Dra Example</h3>
             <p>Advogados</p>
           </div>
           <button
@@ -40,9 +41,7 @@ function Navbar() {
                   </a>
                 </li>
                 <li className="nav-item pe-5">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Serviços
-                  </a>
+                  <Link className="nav-link active" to='/servicos'>Serviços</Link>
                 </li>
                 <li className="nav-item pe-5">
                   <a className="nav-link active" aria-current="page" href="#">
