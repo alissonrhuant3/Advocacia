@@ -13,7 +13,7 @@ export default function Section2() {
 
                 <span id="empatia" className="recomendation">EMPATIA</span>
                 <img className="image" src={svg} alt="separador" style={{ width: 7 }} />
-
+                 
                 <span className="recomendation">CONSULTA GRATIS</span>
             </div>
             

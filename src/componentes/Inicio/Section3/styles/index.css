@@ -85,6 +85,13 @@ div.module.parallax {
     }
 
     .section3_paragraph1 {
-        
+        text-align: justify;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .section3__content {
+        width: 500rem;
+        margin: 15px;
     }
 }

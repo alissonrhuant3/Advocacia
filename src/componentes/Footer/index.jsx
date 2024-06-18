@@ -32,26 +32,30 @@ export default function Footer() { /* Coloca o negocio de enviar formulario aqui
             <h1 className="form_title_line1">Marque uma consulta do caso</h1>
             <h1 className="form_title_line1 title_line2">Sem custo, sem vínculos</h1>
 
-            <div className="sectionf-inputs">
-              <form action="/">
-                <div className="inputs_nome">
-                  <input value={name} className="sectionf_input" onChange={(e) => setName(e.target.value)} type="text" name="name" id="name" placeholder="Nome" />
-                  <input className="sectionf_input" onChange={(e) => setSobrenome(e.target.value)} type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" />
-                </div>
+            <div className="teste">
+              <div className="sectionf-inputs">
+                <form action="/">
+                  <div className="inputs_nome">
+                    <input value={name} className="sectionf_input" onChange={(e) => setName(e.target.value)} type="text" name="name" id="name" placeholder="Nome" />
+                    <input className="sectionf_input" onChange={(e) => setSobrenome(e.target.value)} type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" />
+                  </div>
 
-                <div className="inputs_contact">
-                  <input value={email} className="sectionf_input" onChange={(e) => setEmail(e.target.value)} type="email" name="email" id="email" placeholder="E-mail" />
-                  <input value={telefone} className="sectionf_input" onChange={(e) => setTelefone(e.target.value)} type="tel" name="telefone" id="telefone" placeholder="Telefone" />
-                </div>
+                  <div className="inputs_contact">
+                    <input value={email} className="sectionf_input" onChange={(e) => setEmail(e.target.value)} type="email" name="email" id="email" placeholder="E-mail" />
+                    <input value={telefone} className="sectionf_input" onChange={(e) => setTelefone(e.target.value)} type="tel" name="telefone" id="telefone" placeholder="Telefone" />
+                  </div>
 
-                <textarea value={mensagem} className="sectionf_input sectionf_textarea" onChange={(e) => setMensagem(e.target.value)} name="mensagem" id="mensagem" placeholder="Insira sua mensagem"></textarea>
+                  <textarea value={mensagem} className="sectionf_input sectionf_textarea" onChange={(e) => setMensagem(e.target.value)} name="mensagem" id="mensagem" placeholder="Insira sua mensagem"></textarea>
 
-                <div className="sectionf_buttons">
-                  <button className="sectionf_button sectionf_input" onClick={handleSubmit} type="submit">Enviar</button>
-                </div>
-              </form>
+                  <div className="sectionf_buttons">
+                    <button className="sectionf_button sectionf_input" onClick={handleSubmit} type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+              <div className="sectionf_address">
+                <span className="">Rua pimentão, 157 - Bom Retiro <br />São Paulo - SP, 01121-000 <br /> <br /> Tel: (11) 3456-7890 <br /> <br /> info@meusite.com </span>
+              </div>
             </div>
-            <span className="sectionf_address">Rua pimentão, 157 - Bom Retiro <br />São Paulo - SP, 01121-000 <br /> <br /> Tel: (11) 3456-7890 <br /> <br /> info@meusite.com </span>
         </div>
 
         <iframe

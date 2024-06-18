@@ -11,9 +11,10 @@ function App() {
       <Navbar />
       <Section1 />
       <Section2/>
-      
+      <Section3 />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App
