@@ -10,6 +10,7 @@ function App() {
     <>
       <Navbar />
       <Section1 />
+      <Section2/>
       
     </>
   )
