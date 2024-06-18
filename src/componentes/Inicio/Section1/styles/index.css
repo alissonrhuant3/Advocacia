@@ -109,12 +109,67 @@
         flex-direction: column;
         width: 400px;
     }
+
     .section1__tituloesubtitulo {
-    
+        margin-left: 20px;
+        margin-bottom: 68px;
     }
 
     .section1__formulario {
-        margin-top: 20px;
+        margin-left: 6px;
+        width: 23rem;
     }
+
+    #section1__tituloesubtitulo__titulo {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: -5px;
+    }
+    
+    #section1__tituloesubtitulo__subtitulo {
+        font-weight: 600;
+        font-size: 48px;
+    }
+
+    .section1_input {
+        margin-left: 10px;
+        width: 20rem;
+        margin-top: 2em;
+        background-color: rgba(255, 255, 255, 0.103);
+        border-radius: 1px;
+        outline: none;
+        border-bottom: 2px solid white;
+        padding: 5px;
+        color: white; 
+    }
+    
+    .section1_doisinputs {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+    
+    .section1_input_ {
+        background-color: rgba(255, 255, 255, 0.103);
+        border-radius: 1px;
+        width: 9rem;
+        margin-left: 10px;
+        margin-top: 2em;
+        outline: none;
+        border-bottom: 2px solid white;
+        padding: 5px;
+        color: white; 
+    }
+
+    .section1_input_enviar {
+        border: 1.5px solid white;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        width: 7rem;
+        transition: 0.2s all ease-in-out;
+        margin-bottom: 15px;
+    }
+
 }
 
